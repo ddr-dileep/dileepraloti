@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+/* font-family: 'Metamorphous', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+/* font-family: 'Merienda One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/* font-family: 'Abril Fatface', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+/* font-family: 'Monoton', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+/* font-family: 'Modak', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+section.header nav {
+    background-color: rgba(0, 0, 0, 0.812);
+    }
+
+#head{
+    background-color: rgba(113, 184, 142, 0.287);
+    /* widows: 100%; */
+    background-position: top;
+    height:90vh;
+}
+#head .hero .row{
+    padding-top:250px;
+}
+section.header nav .container .navbar-brand{
+    font-family: 'Metamorphous', cursive;
+    color: aliceblue;
+    font-size: 4rem;
+}
+section.header nav .container .navbar-brand:hover{
+    color:rgb(9, 98, 0);
+}
+section.header nav .container div#navbarSupportedContent{
+    color: aliceblue;
+    
+}
+section.header nav .container div#navbarSupportedContent ul{
+    margin:5px auto;
+    justify-content: end;
+    
+}
+button.menu-toggle{
+    color: #fff;
+    background-color: rgba(92, 149, 97, 0.514);
+}
+section.header nav .container div#navbarSupportedContent ul li a{
+    display: inline-block;
+    font-size: 1.6rem;
+    color: rgb(215, 215, 245);
+    font-family: 'Merienda One', cursive;
+    padding: 1rem 1.5rem;
+}
+section.header nav .container div#navbarSupportedContent ul li a:hover{
+    background-color: rgba(54, 124, 95, 0.661);
+    color: white;
+    border-radius: 2rem;
+}
+section.header nav .container div#navbarSupportedContent ul li a.active{
+    background-color: rgba(50, 102, 53, 0.661);
+    color: white;
+    border-radius: 2rem;
+}
+
+
+
+
+
+/* common css files  for different pages */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+/* font-family: 'Bungee Shade', cursive; */
+* { margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+html{
+    font-size: 10px;
+}
+section.head-img div.head{
+    height: 100vh;
+    /* border: 2px solid red; */
+    /* width: 300px; */
+    background-color: rebeccapurple;
+}
+section.head-img img{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    /* width: 600px !important; */
+    height:100%;
+    width: 100%;
+}
+.name-head-dileep{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    
+    transform: translate(-60%,-50%);
+    color: rgb(22, 163, 10);
+}
+.name-head-dileep h2{
+    font-size: 6rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: 'Bungee Shade', cursive;   
+    padding: 1rem;
+    display:block;
+}
+.name-head-dileep h2.d1{
+    background-color: rgba(75, 74, 74, 0.2);
+    border-radius: 2rem;
+    text-align: center;
+    transition: all 2s;
+}
+.name-head-dileep h2.d1:hover{
+    background-color: rgb(84, 199, 61);
+    color: rgb(19, 0, 105);
+    cursor: pointer;
+}
+.name-head-dileep h2.d2{
+    margin-left: 10rem;
+    /* font-size: 5rem; */
+    border-radius: 3rem;
+    background-color: rgba(54, 54, 54, 0.5);
+    padding: 1rem 3rem;
+    transition: all 3s;
+}
+.name-head-dileep h2.d2:hover{
+    background-color: rgba(194, 212, 91, 0.808);
+    color: rgb(19, 0, 105);
+    cursor: pointer;
+}
+.head-btn{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 1.2rem 2rem;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-85%,-50%);
+    transition: all 3s;
+    border: 1px solid blue;
+}
+.head-btn:hover{
+    background-color: rgb(26, 138, 11);
+    color: #fff;
+    border:1px solid rgb(255, 251, 251) ;
+}
+.head-btn a{
+    display: inline-block;
+    /* background-color: red; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding:0rem 2rem;
+    font-weight: bolder;
+    transition: all 2s;
+}
+.head-btn a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+/* footer section style */
+
+footer .footer-area{
+    background-color:rgb(26, 31, 46);
+    color:white;
+    padding:5rem 0 0 0;
+}
+.footer-top{
+    font-size: 1.6rem;
+    font-weight :400;
+    font-family:'Courier New', Courier, monospace;
+}
+span.email-dileep{
+    background-color: none;
+    font-size :1.3rem;
+    
+}
+span.email-dileep a{
+    display: inline-block;
+    padding-bottom: 3rem;
+    text-decoration:none;
+    margin-top: 3rem;
+}
+span.email-dileep a:hover{
+    color:rgb(103, 194, 0);
+}
+footer .footer-bottom{  
+    /* background-color: #fff; */
+    padding-bottom: 2rem;
+    padding-top:2rem;
+    margin-top: 2rem;
+    margin-bottom: 0%;
+}
+footer .footer-bottom .footer-copy-right{
+    color: rgb(226, 224, 224);
+    font-size: 1.4rem;
+}
+footer .footer-bottom .footer-social a{
+    display: inline-block;
+    text-align: center
+    
+}
+footer .footer-bottom .footer-social a img{
+    border: 2px solid;
+    border-radius:50%;
+    margin: 0.6rem;
+    width: 4rem;
+}

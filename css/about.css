@@ -1,0 +1,58 @@
+
+.about-me{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    padding: 5rem;
+    box-shadow: 2px 2px 5px 5px rgba(133, 132, 132, 0.234);
+}
+/* about_img:hover{
+
+    box-shadow: 2px 2px 5px 5px rgba(133, 132, 132, 0.234);
+} */
+.margin-about{
+    content: '';
+    display: block;
+    padding: 5rem;
+}
+.ddddd:hover{
+   
+    background-color:rgba(255, 254, 179, 0.829);
+    box-shadow: 2px 2px 5px 5px rgba(133, 132, 132, 0.234);
+}
+.about-me .about_e_details{
+  /* padding-top: 3rem; */
+
+  padding: 3rem;
+}
+
+
+.about-me .about_e_details h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(88, 146, 1);
+    padding: 1rem .2rem;
+    font-family:  cursive;
+}
+.about-me .about_e_details h3:hover{
+    color: green;
+    text-decoration:underline;
+}
+.about-me .about_e_details p{
+    font-family: cursive;
+    font-size: 1.6rem;
+}
+.about-me .download_cv a{
+    background-color: rgb(230, 141, 185);
+    display: inline-block;
+    padding: 1.2rem 3rem; 
+    font-size: 1.4rem;
+    color:aliceblue;
+    font-weight: bold;
+    margin-right: .2rem;
+    transition: all 3s;
+} 
+.about-me .download_cv a:hover{
+    background:rgba(209, 209, 1, 0.575);
+    color: black    ;
+}
+/* end-about-me */

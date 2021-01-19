@@ -1,0 +1,43 @@
+.contact-from{
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: serif;
+    width: 60%;
+}
+.contact-from .frorm-group h3{
+    background-color: rgb(26, 26, 26);
+    font-size: rgb(231, 183, 69);
+    color: rgb(253, 218, 179);
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 2s;
+}
+.contact-from .frorm-group h3:hover{
+    background-color: rgba(231, 198, 166, 0.753);
+    color: black;
+}
+.contact-from input, .textarea{
+    font-style: normal;
+    font-size: 1.6rem;
+    /* opacity: 0.9; */
+    border: none;
+    border-bottom:1px solid olivedrab;
+}
+.contact-from a{
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    transition: all 2s;
+    background-color:  rgba(144, 209, 60, 0.897);
+    padding: 1.2rem 2rem;
+    border-radius :0 0 2rem 2rem ;
+    margin: auto;
+}
+.contact-from a:hover{
+    background-color: rgb(240, 193, 132);
+    color: rgb(0, 0, 0);
+    border-radius :  2rem 2rem 0 0;
+}
+
